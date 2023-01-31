@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	. "github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc"
-	"github.com/stretchr/testify/require"
+	. "github.com/Laisky/protoc-gen-doc/cmd/protoc-gen-doc"
+	"github.com/Laisky/testify/require"
 )
 
 func TestHandleFlags(t *testing.T) {

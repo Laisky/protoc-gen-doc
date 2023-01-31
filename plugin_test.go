@@ -4,11 +4,11 @@ import (
 	"regexp"
 	"testing"
 
+	. "github.com/Laisky/protoc-gen-doc"
+	"github.com/Laisky/testify/require"
 	"github.com/golang/protobuf/proto"
 	plugin_go "github.com/golang/protobuf/protoc-gen-go/plugin"
-	. "github.com/pseudomuto/protoc-gen-doc"
 	"github.com/pseudomuto/protokit/utils"
-	"github.com/stretchr/testify/require"
 )
 
 func TestParseOptionsForBuiltinTemplates(t *testing.T) {

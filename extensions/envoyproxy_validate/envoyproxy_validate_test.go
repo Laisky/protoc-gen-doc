@@ -3,11 +3,11 @@ package extensions_test
 import (
 	"testing"
 
+	"github.com/Laisky/protoc-gen-doc/extensions"
+	. "github.com/Laisky/protoc-gen-doc/extensions/lyft_validate"
+	"github.com/Laisky/testify/require"
 	"github.com/envoyproxy/protoc-gen-validate/validate"
 	"github.com/golang/protobuf/proto"
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
-	. "github.com/pseudomuto/protoc-gen-doc/extensions/lyft_validate"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTransform(t *testing.T) {

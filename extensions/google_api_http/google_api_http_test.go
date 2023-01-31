@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
-	. "github.com/pseudomuto/protoc-gen-doc/extensions/google_api_http"
-	"github.com/stretchr/testify/require"
+	"github.com/Laisky/protoc-gen-doc/extensions"
+	. "github.com/Laisky/protoc-gen-doc/extensions/google_api_http"
+	"github.com/Laisky/testify/require"
 	"google.golang.org/genproto/googleapis/api/annotations"
 )
 
